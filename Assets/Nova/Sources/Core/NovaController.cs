@@ -28,7 +28,6 @@ namespace Nova
             ConfigManager = FindComponent<ConfigManager>();
             InputManager = FindComponent<InputManager>();
             CheckpointHelper = FindComponent<CheckpointHelper>();
-            Debug.Log("good");
 
             var animations = GetComponentsInChildren<NovaAnimation>();
             PerDialogueAnimation = Array.Find(animations, x => x.type == AnimationType.PerDialogue);

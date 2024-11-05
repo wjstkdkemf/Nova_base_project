@@ -24,5 +24,6 @@ require 'timeline'
 require 'transition'
 require 'variables'
 require 'video'
+require 'custom'
 
 require 'animation_presets'

@@ -4,3 +4,9 @@ LocalizedResources/English/Scenarios/ch1
 LocalizedResources/English/Scenarios/ch2
 LocalizedResources/English/Scenarios/ch3
 LocalizedResources/English/Scenarios/ch4
+LocalizedResources/ChineseSimplified/Backgrounds/staff
+LocalizedResources/ChineseSimplified/CG/rain_text
+LocalizedResources/ChineseSimplified/Scenarios/ch1
+LocalizedResources/ChineseSimplified/Scenarios/ch2
+LocalizedResources/ChineseSimplified/Scenarios/ch3
+LocalizedResources/ChineseSimplified/Scenarios/ch4

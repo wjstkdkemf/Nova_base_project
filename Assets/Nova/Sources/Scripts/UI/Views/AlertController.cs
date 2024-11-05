@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Diagnostics;
 using UnityEngine.UI;
 
 namespace Nova
@@ -50,7 +51,6 @@ namespace Nova
         private IEnumerator DoAlert(AlertParameters param)
         {
             yield return 3;
-
             this.param = param;
 
             var hasIgnoreKey = !string.IsNullOrEmpty(param.ignoreKey);
@@ -66,6 +66,7 @@ namespace Nova
             UpdateText();
             cancelButton.gameObject.SetActive(param.onConfirm != null || param.onCancel != null);
             ignoreToggle.gameObject.SetActive(hasIgnoreKey);
+            UnityEngine.Debug.Log(viewManager.currentView);
 
             confirmButton.onClick.RemoveAllListeners();
             confirmButton.onClick.AddListener(() => this.Hide(param.onConfirm));

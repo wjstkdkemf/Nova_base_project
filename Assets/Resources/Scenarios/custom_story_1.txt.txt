@@ -1,0 +1,26 @@
+@<|
+label 'custom_story_1'
+is_debug()
+|>
+<|
+show(bg,'room')
+set_box()
+|>
+실험 시작
+
+<|
+set_box('custom','custom_tint')
+|>
+첫번째 박스 실험
+
+<|
+set_box()
+|>
+미니 게임 오픈 실험 시작
+<|
+
+|>
+[stage = before_checkpoint]<|
+minigame(__Nova.uiPrefabLoader, 'MiniGame')
+|>
+@<|is_end()|>

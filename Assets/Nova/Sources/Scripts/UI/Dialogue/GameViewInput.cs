@@ -369,6 +369,10 @@ namespace Nova
             Alert.Show(null, "ingame.title.confirm", ReturnTitle, null, "ReturnTitle");
         }
 
+        private void GotoMinigame(){
+            Minigame.GameStart();
+        }
+
         #region Restoration
 
         public string restorableName => "GameViewInput";

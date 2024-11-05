@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6a2d3e9d31f448fb15ad69533636ece, type: 3}
   m_Name: rain_text
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: c685fab4a43422e4890cb885d03987d2, type: 3}
-  offset: {x: 0.01, y: 0.01, z: 0}
+  sprite: {fileID: 21300000, guid: d0321ed5c4d15da4e8e7855c607ea483, type: 3}
+  offset: {x: 0, y: 0, z: 0}

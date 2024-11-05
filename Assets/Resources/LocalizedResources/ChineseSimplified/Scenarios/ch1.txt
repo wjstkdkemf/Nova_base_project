@@ -1,7 +1,7 @@
 @<|
-label('ch1', '챕터 1')
+label('ch1', 'Chapter 1')
 |>
-Ergong::“하나둘셋.”
+Ergong::“I never thought we'd be trapped in the school by a rainstorm.”
 
 President Wang Ergong furrows her showy brow in a rare way.
 22
@@ -21,9 +21,9 @@ Neither the teacher nor the janitor will be here today, so maybe we're the only 
 
 Thinking of this, I can't help but sigh.
 
-Xiben::“하나둘셋?”
+Xiben::“Doesn't anyone bring an umbrella?”
 
-Xiben ㅁㅁ하나, and her tone isn't too good.
+Xiben curls her fingers in her hair, and her tone isn't too good.
 
 Sun Xiben is in my class, but refuses to talk to me outside of the student council.
 

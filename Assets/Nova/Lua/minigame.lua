@@ -28,6 +28,7 @@ function minigame(prefab_loader, prefab_name)
 
     stop_auto_ff()
     input_off()
+    box_hide()
     __Nova.coroutineHelper:StartInterrupt()
 
     show(prefab_loader, prefab_name)
@@ -35,6 +36,7 @@ function minigame(prefab_loader, prefab_name)
     hide(prefab_loader)
 
     __Nova.coroutineHelper:StopInterrupt()
+    box_show()
     input_on()
 end
 Nova.DialogueEntryPreprocessor.AddCheckpointNextPattern('minigame', 'ensure_ckpt_on_next_dialogue')

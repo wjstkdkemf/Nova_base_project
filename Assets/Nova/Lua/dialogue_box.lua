@@ -188,6 +188,11 @@ local box_pos_presets = {
     hide = {
         box = nil,
     },
+    custom =  {
+        box = 'custom_box',
+        offset = {0, 0, 0, 0},
+        anchor = {0, 1, 0, 0.35},
+    },
 }
 
 local box_style_presets = {
@@ -224,6 +229,12 @@ local box_style_presets = {
     subtitle = {
         tint = {0, 0},
         alignment = 'center',
+        text_color = 1,
+        text_material = 'outline',
+    },
+    custom_tint ={
+        tint = 1,
+        alignment = 'left',
         text_color = 1,
         text_material = 'outline',
     },
@@ -310,6 +321,16 @@ function box_hide_show(duration, pos_name, style_name)
     anim:wait(duration):action(function()
         box:Show(false, nil)
     end)
+end
+
+function box_show()
+    local box = current_box()
+    box:Show(false,nil)
+end
+
+function box_hide()
+    local box = current_box()
+    box:Hide(false,nil)
 end
 
 function text_scroll(value)

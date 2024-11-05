@@ -11,7 +11,8 @@ namespace Nova
         UI,
         Game,
         InTransition,
-        Alert
+        Alert,
+        Minigame
     }
 
     [RequireComponent(typeof(ScreenCapturer))]
@@ -173,6 +174,10 @@ namespace Nova
             {
                 return CurrentViewType.Alert;
             }
+
+            // if(GetController<MinigameController>().active){
+            //     return CurrentViewType.Minigame;
+            // }
 
             var hasUI = controllers.Values.Any(c =>
                 overlayViewControllers.All(t => !t.IsInstanceOfType(c)) &&

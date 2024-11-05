@@ -62,7 +62,7 @@ namespace Nova
             {
                 return;
             }
-
+            
             var notification = Instantiate(notificationPrefab, myPanel.transform);
             notification.Init(param.content);
             float timeout = notificationTimePerChar * I18n.__(param.content).Length + notificationTimeOffset;
