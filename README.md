@@ -1,4 +1,4 @@
-# Nova_base_project: Unity 기반 비주얼 노벨 제작 시스템
+# Unity 기반 비주얼 노벨 제작 시스템
 
 ## 프로젝트 소개
 
